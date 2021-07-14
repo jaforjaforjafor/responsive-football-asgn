@@ -129,7 +129,13 @@ body{
             margin-left: 14px;
         }
         /* footer step */
-        .copy-right{
+        footer p{
+             justify-content: center;
+            text-align: center;
+            margin-bottom: 63px;
+           
+        }
+        .final-icon{
             display: flex;
             font-size: 18px;
             margin-left: 598px;
