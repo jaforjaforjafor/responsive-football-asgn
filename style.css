@@ -14,6 +14,7 @@ body{
 .container{
     background-color:#2D25A0 ;
     width: 1440px;
+   
     }
     /* using transformeror transition */
     .top-player:hover .player-banner img{
@@ -44,6 +45,96 @@ body{
         width: 24px;
         height: 24px;
         margin-left: 8px;
-
     }
-    
+
+     /* all player style */
+     span{
+         color: rgba(255, 17, 0, 0.932);
+     }
+     .container-1{
+         margin-top: 70px;
+         margin-left: 180px;
+         margin-right: 210px;
+     }
+     .top-player1{
+        margin-bottom: 30px;
+     }
+     .players img{
+         width: 330px;
+         height: 474px;
+     }
+     .players{
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+    }
+     .player{
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15) ;
+     }
+     /* highlight match */
+     .container-2{
+        display: flex;
+    }
+      .highlights img{
+          width: 567px;
+          height: 427px;
+      }
+
+     
+      .image-logo{
+          width: 567px;
+          height: 427px;
+          margin-right: 156px;
+          margin-left: 69px;
+      }
+     #logo{
+         margin-top: 158px;
+         margin-left: 475px;
+         margin-right: 481px;
+         width: 483px;
+         height: 110px;
+     }
+     .highlights{
+         margin-left: 182px;
+        }
+        /* footer part */
+        footer img{
+            width: 483.87px;
+            height: 213px;
+            margin-left: 475px;
+            margin-right: 481px;
+            margin-top: 158px;
+        }
+        .final-icon{
+            margin-left: 691px;
+            margin-right: 697px;
+            display: flex;
+        }
+        .fa-instagram{
+            margin-left: 14px;
+        }
+        .fa-basketball-ball{
+            margin-left: 14px;
+        }
+        .fa-twitter-square{
+            margin-left: 14px;
+        }
+        .fa-youtube{
+            margin-left: 14px;
+        }
+        /* footer step */
+        .copy-right{
+            display: flex;
+            font-size: 18px;
+            margin-left: 598px;
+            margin-right: 605px;
+            margin-bottom: 63px;
+            align-items: center;
+               
+        }
