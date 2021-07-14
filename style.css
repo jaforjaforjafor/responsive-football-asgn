@@ -180,4 +180,29 @@ nav >ul >li:hover >ul {
             margin-bottom: 63px;
             align-items: center;
                
-        }
+        }/* ----------
+          media queries
+         ------- */
+        /* mobile device */
+ @media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+   .players, .seconds{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .container{
+        flex-direction: column;
+    }
+   
+}
+/* ----------
+tablet devices
+----------- */@media only screen and (min-width:688px) and (max-width:992px){
+     .container{
+        width: 100%;
+    }
+    .seconds{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
